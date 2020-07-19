@@ -1,11 +1,15 @@
+body{
+background-color: #ffffe5;
+}
 p {
-    color:#ee8881;
+    color: #ee8881;
     background-color: #FFB7B2;
-    background-position: 50px ;
-    border-bottom-style: solid ;
+    background-position: 50px;
+    border-bottom-style: solid;
     border-bottom-color: #FF9AA2;
     border-left-style: solid;
     border-left-color: #FF9AA2;
+    padding-left: 10px;
     
     
 }
@@ -13,11 +17,10 @@ p {
 img {
     border-style: double;
     border-color: #FF9AA2;
-    border-width: 10px; 
-}
-div{
-    display: inline-block;
-    background-color: #ffffe5;
-    padding: 30px;
+    border-width: 10px;
 }
 
+div {
+    display: inline-block;
+    padding: 30px;
+}

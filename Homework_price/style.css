@@ -8,7 +8,7 @@ body {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
 }
 
-.card, .card2, .card3 {
+.card {
     width: 220px;
     height: 370px;
     border-radius: 30px;
@@ -20,14 +20,14 @@ body {
     background: linear-gradient(to left, rgb(134, 235, 193), rgb(99, 157, 233), rgb(147, 84, 230));
 }
 
-.card2:nth-child(2) {
+.card:nth-child(2) {
     position: absolute;
     display: inline;
     top: 0.5em;
     left: 305px;
     background: linear-gradient(to left, rgb(245, 78, 12), rgb(233, 17, 17), rgb(240, 11, 79));
 }
-.card3:nth-child(3) {
+.card:nth-child(3) {
     position: absolute;
     display: inline;
     top: 0.5em;
@@ -35,25 +35,25 @@ body {
     background: linear-gradient(to left, rgb(175, 245, 12), rgb(24, 233, 17), rgb(11, 240, 152));
 }
 
-.card .type, .card2 .type, .card3 .type {
+.card .type {
     letter-spacing: 0.1rem;
     margin-top: 15px;
 }
 
-.card .price, .card2 .price, .card3 .price {
+.card .price {
     font-size: 7.5rem;
 }
 
-.card .price .dollar-size, .card2 .price .dollar-size, .card3 .price .dollar-size {
+.card .price .dollar-size {
     font-size: 1.8rem;
 }
 
-.card .plan, .card2 .plan, .card3 .plan {
+.card .plan {
     font-size: 1.3rem;
     position: relative;
 }
 
-.card .plan::before, .plan::after, .card2 .plan::before, .plan::after, .card3 .plan::before, .plan::after {
+.card .plan::before, .plan::after {
     content: "";
     width: 35px;
     height: 2px;
@@ -62,26 +62,26 @@ body {
     bottom: 40%;
 }
 
-.card .plan::before, .card2 .plan::before, .card3 .plan::before {
+.card .plan::before {
     left: 15%;
 }
 
-.card .plan::after, .card2 .plan::after, .card3 .plan::after {
+.card .plan::after {
     right: 15%;
 }
 
-.card .details, .card2 .details, .card3 .details {
+.card .details {
     list-style: none;
     padding: 0%;
     text-transform: capitalize;
     top: 15px;
 }
 
-.card .details span, .card2 .details span, .card3 .details span {
+.card .details span {
     text-transform: uppercase;
 }
 
-.card .details li, .card2 .details li, .card3 .details li {
+.card .details li {
     margin: 15px 0px;
 }
 

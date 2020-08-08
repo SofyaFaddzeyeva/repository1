@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(178, 226, 226);
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+}
+
+.infoblok {
+    background-color: beige;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.first, .second {
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text1, .text2 {
+    border: solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.text1 h3 p {
+    position: relative;
+    padding: 10px;
+}
+
+.text1 img {
+    height: 150px;
+    float: right;
+    padding: px;
+    
+}
+
+.text2 h3 p {
+    position: relative;
+    padding: 10px;
+    right: 20px;
+}
+
+.text2 img {
+    height: 150px;
+    float: left;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+.open {
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(151, 211, 211);
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.open:target {
+    overflow: visible;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    background-color: white;
+}
+
+.open a:link {
+    text-decoration: none;
+}
+
+button {
+    position: relative;
+  left: 90%;
+}
+
+.footer {
+background-color: grey;
+height: 150px;
+font-style: italic;
+font-size: 20px;
+padding-left: 3px;
+}
+.footer img {
+    height: 30px;
+}

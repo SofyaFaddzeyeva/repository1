@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="nav">
+                <ul class="links">
+                    <li class="active"><a href="#">sign in</a></li>
+                    <li><a href="#">sign up</a></li>
+                </ul>
+            </div>
+            <form name="Login">
+                <label class="form-label">username</label>
+                <input type="text" name="username" class="form-input">
+
+                <label class="form-label">password</label>
+                <input type="password" name="password" class="form-input">
+
+                <div class="keep"><input type="radio" name="keepsignedin" id="keepsignedin">
+                    <label for="keepsignedin" class="keepsignedin">keep me signed in </label>
+                </div>
+
+                <button class="button" type="submit">sign in</button>
+                <hr>
+                <p>Forgot your password?</p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

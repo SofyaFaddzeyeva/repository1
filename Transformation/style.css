@@ -1,0 +1,77 @@
+.bg {
+    width: 100%;
+    position: relative;
+}
+
+.moon {
+    display: inline;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 200px;
+}
+
+.ship {
+    width: 40px;
+    position: absolute;
+    left: 47%;
+    top: 50%;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1.5s;
+}
+
+.content:hover .ship1 {
+
+    transform: translate(-500px, -300px);
+    transition-duration: 2s;
+}
+
+.content:hover .ship2 {
+
+    transform: translate(-500px, 0px);
+    transition-duration: 2.5s;
+
+}
+
+.content:hover .ship3 {
+
+    transform: translate(-500px, 300px);
+    transition-duration: 3s;
+
+}
+
+.content:hover .ship4 {
+
+    transform: translate(0px, -300px);
+    transition-duration: 3.5s;
+
+}
+
+.content:hover .ship5 {
+
+    transform: translate(0px, 300px);
+    transition-duration: 4s;
+
+}
+
+.content:hover .ship6 {
+
+    transform: translate(500px, -300px);
+    transition-duration: 4.5s;
+
+}
+
+.content:hover .ship7 {
+
+    transform: translate(500px, 0px);
+    transition-duration: 5s;
+
+}
+
+.content:hover .ship8 {
+
+    transform: translate(500px, 300px);
+    transition-duration: 5.5s;
+
+}

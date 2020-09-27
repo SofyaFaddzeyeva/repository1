@@ -1,5 +1,6 @@
 body {
     background-color: #858585;
+
 }
 
 table {
@@ -33,6 +34,8 @@ td {
 .calendar {
     height: 150px;
     background-color: #777777;
+
+    
 }
 .single-day {
     border-radius: 10px;
@@ -57,9 +60,10 @@ td {
 .center   {
     margin-right: -20px;
     margin-left: -20px;
+    text-align: center;
 }
 .end   {
-    margin-left: -20px;
+    margin-left: -40px;
 }
 
 .green {
@@ -72,7 +76,7 @@ td {
     margin-bottom: 6px;
     padding-top: 1px;
     padding-bottom: 1px;
-    padding-left: 30px;
+
     height: 18px;
     color: #4c4c4c;
     border-radius: 10px;

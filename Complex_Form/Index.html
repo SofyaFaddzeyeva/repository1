@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Complex form</title>
+</head>
+
+<body>
+    <div class="p-3">
+        <h4>Complex Form Example</h4>
+        <form>
+            <div class="row">
+
+                <div class="col-md-5 mb-3">
+                    <label>Account#</label>
+                    <input type="text" class="form-control" name="accounte" placeholder="XXXXXXXXXXXX" />
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label>Control#</label>
+                    <input type="text" class="form-control" name="Control" placeholder="0000" />
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label>Amount</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        <iput type="text" name="username" class="form-control" placeholder="Amount" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label>First name</label>
+                    <input type="text" class="form-control" name="fistname" />
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label>Last name</label>
+                    <input type="text" class="form-control" name="lastname" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-5">
+                    <label>City</label>
+                    <input type="text" class="form-control" name="city">
+                </div>
+                <div class="col-md-3">
+                    <label for="state">State</label>
+                    <select class="form-control" id="state">
+                        <option>Pick a state</option>
+                        <option>Maryland</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label>Postal code</label>
+                    <input type="text" class="form-control" name="Postal code">
+                </div>
+            </div>
+
+            <div class="row  mb-3">
+                <div class="col-md-6">
+                    <div><label>Color</label></div>
+                    <div class="d-flex justify-content-between">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="blue" id="blue" class="custom-control-input">
+                            <small><label for="credit" class="custom-control-label"
+                                    class="text-muted font-sm">Blue</label></small>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="red" id="red" class="custom-control-input">
+                            <small><label for="red" class="custom-control-label"
+                                    class="text-muted font-sm">Red</label></small>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="yellow" id="yellow" class="custom-control-input">
+                            <small><label for="yellow" class="custom-control-label"
+                                    class="text-muted font-sm">Yellow</label></small>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="green" id="green" class="custom-control-input">
+                            <small><label for="green" class="custom-control-label"
+                                    class="text-muted font-sm">Green</label></small>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="black" id="black" class="custom-control-input">
+                            <small><label for="black" class="custom-control-label"
+                                    class="text-muted font-sm">Black</label></small>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="orange" id="orange" class="custom-control-input">
+                            <small><label for="orange" class="custom-control-label"
+                                    class="text-muted font-sm">Orange</label></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label>Message</label>
+                    <textarea class="form-control" id="message" rows="2"></textarea>
+                    <small id="message" class="form-text text-primary">Add the packaging note here.</small>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="row col-6">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label ">Generated Id</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="colFormLabel">
+                    </div>
+                </div>
+                <div class="row col">
+                    <label for="colFormLabel" class="col-sm-4 col-form-label pl-5">Date Assigned</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="colFormLabel">
+                    </div>
+                </div>
+        </form>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
